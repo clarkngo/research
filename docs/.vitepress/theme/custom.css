@@ -1,3 +1,16 @@
 .vp-doc h1 {
   margin-bottom: 4px;
 }
+
+/* Use the full viewport width on desktop now that the right-hand
+   outline and per-section left sidebar are both disabled. */
+@media (min-width: 960px) {
+  /* !important: overriding VitePress's scoped VPDoc styles, whose
+     data-v attribute selectors outrank a plain global selector here. */
+  .VPDoc:not(.has-sidebar) .container {
+    max-width: none !important;
+  }
+  .VPDoc:not(.has-sidebar) .content {
+    max-width: none !important;
+  }
+}
