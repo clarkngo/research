@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { withBase } from 'vitepress'
 import { data as allItems } from '../research.data'
 import StatusBadge from './StatusBadge.vue'
 
@@ -52,7 +53,7 @@ const filtered = computed(() =>
     <p class="count">{{ filtered.length }} item{{ filtered.length === 1 ? '' : 's' }}</p>
 
     <div class="cards">
-      <a v-for="item in filtered" :key="item.url" :href="item.url" class="card">
+      <a v-for="item in filtered" :key="item.url" :href="withBase(item.url)" class="card">
         <div class="card-top">
           <StatusBadge :status="item.status" />
           <span class="year" v-if="item.year">{{ item.year }}</span>
