@@ -22,13 +22,6 @@ export default defineConfig({
       { text: 'Archive', link: '/archive/' },
     ],
 
-    sidebar: {
-      '/publications/': [{ text: 'Publications', link: '/publications/' }],
-      '/working-papers/': [{ text: 'Working Papers', link: '/working-papers/' }],
-      '/in-progress/': [{ text: 'In Progress', link: '/in-progress/' }],
-      '/archive/': [{ text: 'Archive', link: '/archive/' }],
-    },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/clarkngo' },
     ],
@@ -37,9 +30,7 @@ export default defineConfig({
       provider: 'local',
     },
 
-    outline: {
-      level: [2, 3],
-    },
+    aside: false,
 
     footer: {
       message: 'Research hub — built with VitePress',
