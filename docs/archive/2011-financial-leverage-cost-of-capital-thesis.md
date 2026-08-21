@@ -1,6 +1,6 @@
 ---
 title: "The Impact of Financial Leverage on Cost of Capital and Firm Valuation and the Determination of the Optimal Capital Structure Using the Cost of Capital Approach for the Firms under the Construction, Infrastructure and Allied Services Sub-sector of the Philippine Stock Exchange for the Period 2001-2009"
-status: Archived
+status: Defended
 date: "2011-01-01"
 venue: "Bachelor's Thesis, Ramon V. Del Rosario College of Business, De La Salle University – Manila"
 authors:
