@@ -5,6 +5,7 @@ import StatusBadge from './StatusBadge.vue'
 
 const { frontmatter } = useData()
 const copied = ref(false)
+const showViewer = ref(false)
 
 function copyBibtex() {
   if (!frontmatter.value.bibtex) return
@@ -35,10 +36,17 @@ function copyBibtex() {
 
     <div class="links">
       <a v-if="frontmatter.pdf_link" :href="frontmatter.pdf_link" target="_blank" rel="noopener">PDF</a>
+      <button v-if="frontmatter.pdf_link" class="cite-btn" @click="showViewer = !showViewer">
+        {{ showViewer ? 'Hide Viewer' : 'View PDF' }}
+      </button>
       <a v-if="frontmatter.code_repo" :href="frontmatter.code_repo" target="_blank" rel="noopener">Code</a>
       <button v-if="frontmatter.bibtex" class="cite-btn" @click="copyBibtex">
         {{ copied ? 'Copied!' : 'Copy BibTeX' }}
       </button>
+    </div>
+
+    <div v-if="showViewer && frontmatter.pdf_link" class="pdf-viewer">
+      <iframe :src="frontmatter.pdf_link" title="PDF viewer" />
     </div>
 
     <details v-if="frontmatter.bibtex" class="bibtex-block">
@@ -111,5 +119,17 @@ function copyBibtex() {
 .bibtex-block pre {
   white-space: pre-wrap;
   font-size: 12px;
+}
+.pdf-viewer {
+  margin-top: 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.pdf-viewer iframe {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  border: none;
 }
 </style>
