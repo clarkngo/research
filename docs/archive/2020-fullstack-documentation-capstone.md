@@ -1,6 +1,6 @@
 ---
 title: "Software Documentation and Architectural Analysis of Full Stack Development"
-status: Archived
+status: Coursework
 date: "2020-01-01"
 venue: "Capstone project, School of Technology & Computing, City University of Seattle"
 authors:

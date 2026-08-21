@@ -3,7 +3,7 @@ import { createContentLoader } from 'vitepress'
 export interface ResearchItem {
   url: string
   title: string
-  status: 'Published' | 'Proceedings' | 'Under Review' | 'Active WIP' | 'Archived'
+  status: 'Published' | 'Proceedings' | 'Under Review' | 'Active WIP' | 'Coursework' | 'Defended' | 'Archived'
   date: string
   year: number
   venue: string

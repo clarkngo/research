@@ -1,6 +1,6 @@
 ---
 title: "Assessment and Approval Based on CIS's Oracle MySQL Community Server 5.7 Benchmark"
-status: Archived
+status: Coursework
 date: "2018-02-25"
 venue: "ISEC 510: The Senior Manager and Information Security (instructor Scott Buchanan), City University of Seattle"
 authors:

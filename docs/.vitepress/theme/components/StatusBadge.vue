@@ -6,6 +6,8 @@ const colorFor: Record<string, string> = {
   Proceedings: '#8250df',
   'Under Review': '#9a6700',
   'Active WIP': '#0969da',
+  Coursework: '#0f766e',
+  Defended: '#4338ca',
   Archived: '#6e7781',
 }
 </script>
