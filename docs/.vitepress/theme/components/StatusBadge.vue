@@ -3,6 +3,7 @@ defineProps<{ status: string }>()
 
 const colorFor: Record<string, string> = {
   Published: '#1a7f37',
+  Proceedings: '#8250df',
   'Under Review': '#9a6700',
   'Active WIP': '#0969da',
   Archived: '#6e7781',

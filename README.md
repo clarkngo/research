@@ -36,7 +36,7 @@ docs/
    ```yaml
    ---
    title: "Paper Title"
-   status: Published        # Published | Under Review | Active WIP | Archived
+   status: Published        # Published | Proceedings | Under Review | Active WIP | Archived
    date: "2026-01-01"       # quoted — unquoted dates get parsed as YAML timestamps
    venue: "Conference or Journal Name"
    authors: [Clark Ngo]
@@ -56,6 +56,45 @@ docs/
 4. See [`docs/working-papers/TEMPLATE.md`](docs/working-papers/TEMPLATE.md)
    for a copy-pasteable starting point, or any file under
    [`docs/publications/`](docs/publications) for a filled-in example.
+
+## Adding a PDF
+
+**Fastest path:** drop the raw file into `_inbox/` (untracked, local-only
+— create it if it doesn't exist) and ask Claude to "process the inbox."
+Claude reads each PDF, looks up the paper's real citation details, renames
+it per the convention below, moves it into `docs/public/pdfs/`, and
+drafts or updates the matching entry — for one file or several at once.
+
+**Manually:** drop the file into [`docs/public/pdfs/`](docs/public/pdfs) — anything in
+`docs/public/` is copied verbatim into the built site, so it's directly
+downloadable at `https://clarkngo.github.io/research/pdfs/<filename>`
+with no other setup.
+
+Rename it to this pattern before adding it:
+
+```
+<first-author-surname>-<year>-<short-slug>.pdf
+```
+
+- **surname** — lowercase, first author only (e.g. `ngo`, `chung`)
+- **year** — the paper's publication year (4 digits)
+- **slug** —2–4 hyphenated words distilled from the title, not the full
+  title (e.g. `serverless-computing-security`, not
+  `serverless-computing-architecture-security-and-quality-analysis`)
+- add a qualifier word (`-manuscript`, `-capstone`, `-poster`) instead of
+  the slug when the file isn't the final published version — see
+  [`docs/archive/2020-fullstack-documentation-capstone.md`](docs/archive/2020-fullstack-documentation-capstone.md)
+  for an example
+
+```
+ngo-2020-serverless-computing-security.pdf
+chung-2019-fintech-blockchain-chasm.pdf
+ngo-fullstack-documentation-capstone.pdf     # capstone report, not a dated paper
+```
+
+Then set `pdf_link: /research/pdfs/<filename>.pdf` in the entry's
+frontmatter — the `/research/` prefix matches the site's `base` config
+in [`docs/.vitepress/config.mts`](docs/.vitepress/config.mts).
 
 ## Local development
 

@@ -1,11 +1,11 @@
 ---
 title: "Enterprise AI Course: Cloud-Based Full-Stack DevSecOps with Retrieval-Augmented Generation"
-status: Published
+status: Proceedings
 date: "2024-08-21"
-venue: "UKC 2024 Conference, 238"
+venue: "Proceedings of UKC 2024, San Francisco, CA — p. 238"
 authors:
   - Clark Ngo
-  - S. Chung
+  - Sam Chung
 tags:
   - RAG
   - DevSecOps
@@ -16,8 +16,9 @@ code_repo: null
 bibtex: |
   @inproceedings{ngo2024enterprise,
     title     = {Enterprise AI Course: Cloud-Based Full-Stack DevSecOps with Retrieval-Augmented Generation},
-    author    = {Ngo, Clark and Chung, S.},
+    author    = {Ngo, Clark and Chung, Sam},
     booktitle = {Proceedings of UKC 2024},
+    address   = {San Francisco, CA},
     pages     = {238},
     year      = {2024}
   }
@@ -31,4 +32,6 @@ abstract: >
 
 ## Notes
 
-Presented at UKC 2024 in San Francisco, CA, August 21–24, 2024.
+Presented as a poster at UKC 2024 (Ubiquitous Knowledge Community) in
+San Francisco, CA, August 21–24, 2024. Full proceedings volume:
+[UKC2024_Proceeding.pdf](https://ukc2024.ksea.org/programs/proceeding-ukc2024).
