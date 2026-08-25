@@ -11,7 +11,7 @@ tags:
   - DevSecOps
   - cloud
   - education
-pdf_link: null
+pdf_link: /research/pdfs/ngo-2024-enterprise-ai-course-rag.pdf
 code_repo: null
 bibtex: |
   @inproceedings{ngo2024enterprise,
@@ -23,9 +23,13 @@ bibtex: |
     year      = {2024}
   }
 abstract: >
-  Presents an enterprise AI course design built around cloud-based
-  full-stack DevSecOps practices and retrieval-augmented generation (RAG),
-  presented at UKC 2024 in San Francisco, CA, August 21–24, 2024.
+  Proposes an Enterprise AI course design that integrates cloud-based
+  full-stack DevSecOps with retrieval-augmented generation (RAG),
+  covering cloud/edge infrastructure, CI/CD, security-integrated
+  DevSecOps, generative AI, ML/DL, MLOps/AIOps, NLP, and LLM
+  architecture — aiming to give professionals a practical path through
+  the software-engineering challenges of deploying enterprise AI in
+  production.
 ---
 
 <PaperMeta />
