@@ -1,8 +1,8 @@
 ---
 title: "Threat Model on Google ADK Agents: An OWASP Agentic Security Initiative Perspective"
-status: Under Review
-date: "2025-09-18"
-venue: "Target: KOCSEA 2025 (poster submission)"
+status: Proceedings
+date: "2025-11-12"
+venue: "29th Colloquium: Cybersecurity Education in the Age of AI, Automation & Ambiguity (CISSE), Seattle University, Seattle, WA"
 authors:
   - Clark Ngo
   - Sam Chung
@@ -15,11 +15,12 @@ tags:
 pdf_link: /research/pdfs/ngo-2025-adk-threat-model.pdf
 code_repo: https://github.com/clarkngo/agent-development-kit
 bibtex: |
-  @unpublished{ngo2025adkthreat,
-    title  = {Threat Model on Google ADK Agents: An OWASP Agentic Security Initiative Perspective},
-    author = {Ngo, Clark Jason and Chung, Sam},
-    note   = {Poster submission, KOCSEA 2025},
-    year   = {2025}
+  @inproceedings{ngo2025adkthreat,
+    title     = {Threat Model on Google ADK Agents: An OWASP Agentic Security Initiative Perspective},
+    author    = {Ngo, Clark Jason and Chung, Sam},
+    booktitle = {Proceedings of the 29th Colloquium: Cybersecurity Education in the Age of AI, Automation \& Ambiguity (CISSE)},
+    address   = {Seattle, WA},
+    year      = {2025}
   }
 abstract: >
   Introduces a threat model tailored for Google Agent Development Kit
@@ -37,7 +38,9 @@ abstract: >
 
 ## Notes
 
-Poster submission formatted 2025-09-18 for KOCSEA 2025; acceptance not
-yet confirmed. Update `status` to `Proceedings`/`Published` once a
-decision lands. Example agents referenced (HOS01A, HOS02A) live in the
-linked code repository.
+Presented at the 29th Colloquium: Cybersecurity Education in the Age of
+AI, Automation & Ambiguity (CISSE), Seattle University, Seattle, WA,
+November 12, 2025. The attached PDF was originally formatted 2025-09-18
+as a poster submission for KOCSEA 2025 — same paper; not confirmed
+whether it was also accepted there. Example agents referenced (HOS01A,
+HOS02A) live in the linked code repository.
