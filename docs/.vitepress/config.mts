@@ -11,6 +11,11 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
+  // Standalone static pages under public/ (e.g. presentation decks) are
+  // served as-is and aren't VitePress routes, so the dead-link checker
+  // can't resolve them to a source page.
+  ignoreDeadLinks: [/\/presentations\//],
+
   head: [['link', { rel: 'icon', href: '/research/favicon.ico' }]],
 
   themeConfig: {

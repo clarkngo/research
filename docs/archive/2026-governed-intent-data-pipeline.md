@@ -1,7 +1,7 @@
 ---
 title: "Governed Intent-Driven Data Engineering: An Architectural Framework for AI-Assisted Data Pipelines Across the Analytics Lifecycle"
 status: Coursework
-date: "2026-01-01"
+date: "2026-08-26"
 venue: "DS 522: Data Acquisition and Analytics (MS Data Science), School of Technology & Computing, City University of Seattle"
 authors:
   - Clark Ngo
@@ -45,8 +45,10 @@ abstract: >
 Term project 3 (TP03) for DS 522, MS in Data Science, City University
 of Seattle.
 
+- Source repo: [github.com/clarkngo/governed-intent-data-pipeline](https://github.com/clarkngo/governed-intent-data-pipeline)
 - Interactive browser laboratory: [clarkngo.github.io/governed-intent-data-pipeline](https://clarkngo.github.io/governed-intent-data-pipeline/)
+- GIDP-Core demo: [clarkngo.github.io/gidp-core](https://clarkngo.github.io/gidp-core/)
 - Core engine package: [github.com/clarkngo/gidp-core](https://github.com/clarkngo/gidp-core) (v0.1.0)
+- Presentation slides: [governed-intent-data-pipeline.html](/research/presentations/governed-intent-data-pipeline.html)
 
-Exact submission date not printed in the document; year taken from the
-paper's own self-citation.
+Submitted 2026-08-26.
