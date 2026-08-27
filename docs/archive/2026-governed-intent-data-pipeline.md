@@ -49,6 +49,6 @@ of Seattle.
 - Interactive browser laboratory: [clarkngo.github.io/governed-intent-data-pipeline](https://clarkngo.github.io/governed-intent-data-pipeline/)
 - GIDP-Core demo: [clarkngo.github.io/gidp-core](https://clarkngo.github.io/gidp-core/)
 - Core engine package: [github.com/clarkngo/gidp-core](https://github.com/clarkngo/gidp-core) (v0.1.0)
-- Presentation slides: [governed-intent-data-pipeline.html](/research/presentations/governed-intent-data-pipeline.html)
+- Presentation slides: [governed-intent-data-pipeline.html](/presentations/governed-intent-data-pipeline.html)
 
 Submitted 2026-08-26.
