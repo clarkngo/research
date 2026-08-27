@@ -45,7 +45,7 @@ records a 2011 date of publication. Thesis adviser: Edralin C. Lim.
 Defense panel: Neriza M. Delfino, Vivian Eleazar, Kashmirr Ibanez.
 
 Catalog record: [animorepository.dlsu.edu.ph/etd_bachelors/7692](https://animorepository.dlsu.edu.ph/etd_bachelors/7692).
-Defense slides: [ngo-2011-financial-leverage-defense-slides.pdf](/research/pdfs/ngo-2011-financial-leverage-defense-slides.pdf).
+Defense slides: [ngo-2011-financial-leverage-defense-slides.pdf](/pdfs/ngo-2011-financial-leverage-defense-slides.pdf).
 
 The document's own cover page uses a shorter working title ("...cost of
 capital and valuation of selected firms under the construction,
