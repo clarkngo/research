@@ -49,6 +49,13 @@ of Seattle.
 - Interactive browser laboratory: [clarkngo.github.io/governed-intent-data-pipeline](https://clarkngo.github.io/governed-intent-data-pipeline/)
 - GIDP-Core demo: [clarkngo.github.io/gidp-core](https://clarkngo.github.io/gidp-core/)
 - Core engine package: [github.com/clarkngo/gidp-core](https://github.com/clarkngo/gidp-core) (v0.1.0)
-- Presentation slides: <a href="/research/presentations/governed-intent-data-pipeline.html" target="_blank" rel="noopener">governed-intent-data-pipeline.html</a>
+- Presentation slides: <a href="/research/presentations/governed-intent-data-pipeline.html" target="_blank" rel="noopener">governed-intent-data-pipeline.html</a> · <a href="/research/presentations/governed-intent-data-pipeline.pptx" target="_blank" rel="noopener">.pptx</a>
+- Extended slide deck (illustrated, AI-generated via Google NotebookLM from the paper): <a href="/research/presentations/governed-intent-data-architecture.pdf" target="_blank" rel="noopener">.pdf</a> · <a href="/research/presentations/governed-intent-data-architecture.pptx" target="_blank" rel="noopener">.pptx</a>
+
+Videos:
+
+- [How GIDP Core Governs AI Pipelines](https://youtube.com/shorts/ETmAHKtFEws) (short)
+- [Governed Data Pipelines](https://youtu.be/nIRbC19XmDQ)
+- [Securing AI pipelines with plan before execute](https://youtu.be/lYtsZNpgruk)
 
 Submitted 2026-08-26.
