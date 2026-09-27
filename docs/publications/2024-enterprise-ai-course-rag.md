@@ -36,6 +36,6 @@ abstract: >
 
 ## Notes
 
-Presented as a poster at UKC 2024 (Ubiquitous Knowledge Community) in
-San Francisco, CA, August 21–24, 2024. Full proceedings volume:
+Presented as a poster at the US-Korea Conference (UKC) 2024 on Science,
+Technology, and Entrepreneurship, hosted by KSEA, in San Francisco, CA, August 21–24, 2024. Full proceedings volume:
 [UKC2024_Proceeding.pdf](https://ukc2024.ksea.org/programs/proceeding-ukc2024).
