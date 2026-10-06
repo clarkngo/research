@@ -37,6 +37,7 @@ abstract: >
 ## Notes
 
 - Course site: [clarkngo.github.io/math-matrix-ai](https://clarkngo.github.io/math-matrix-ai/)
+- Lessons: Module 0 (a symbol toolkit built from basic algebra) plus 10 step-by-step modules with worked examples, real-life uses, and quizzes, all linked from the course site
 - Research & development plan: [clarkngo.github.io/math-matrix-ai/research-plan.html](https://clarkngo.github.io/math-matrix-ai/research-plan.html)
 - Gradient descent simulator (Module 9 prototype): [clarkngo.github.io/math-matrix-ai/sim-gradient-descent.html](https://clarkngo.github.io/math-matrix-ai/sim-gradient-descent.html)
 - Source repo: [github.com/clarkngo/math-matrix-ai](https://github.com/clarkngo/math-matrix-ai)
@@ -44,7 +45,8 @@ abstract: >
 This entry stays `Active WIP` while the Module 9 prototype and pilot
 study are being built.
 
-The plan was drafted with Claude (Anthropic), operating via Claude
-Code, while the author directed the project scope and is responsible
-for the final content. The gradient-descent and SymPy examples on the
-page were run and their outputs verified.
+The plan and lessons were drafted with Claude (Anthropic), operating
+via Claude Code, while the author directed the project scope and is
+responsible for the final content. The gradient-descent and SymPy
+examples and every worked example in the lessons were run and their
+outputs verified.
