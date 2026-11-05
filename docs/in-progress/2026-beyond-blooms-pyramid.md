@@ -2,7 +2,7 @@
 title: "Beyond Bloom's Pyramid: Sociomateriality, CEAU, and Authentic Learning in the Age of Generative AI"
 status: Active WIP
 date: "2026-11-02"
-venue: "Conceptual paper planned for ACBSP AI Forum 2027 (San Diego, March 11–13)"
+venue: "Conceptual paper planned for ACBSP 2027 (AI Forum or Conference '27; event to be decided)"
 authors:
   - Jim O'Farrell
   - Clark Ngo
@@ -43,7 +43,10 @@ abstract: >
 - Source repo (charter, outline, design case, milestones): [github.com/clarkngo/beyond-blooms-pyramid](https://github.com/clarkngo/beyond-blooms-pyramid)
 
 A collaboration with Jim O'Farrell that started at a kickoff meeting
-on November 2, 2026. The ACBSP submission is due January 19, 2027.
+on November 2, 2026. The target event is still being chosen: the ACBSP
+AI Forum (San Diego, March 11–13, 2027) has not posted a call yet, and
+the ACBSP Conference '27 call (Baltimore, June 24–26) closes January 19,
+2027, which the authors are using as their planning target.
 Phase 1 is this conceptual paper. Phase 2, an empirical study whose
 scope is still being decided, will collect data only after the
 required institutional ethics approval.
