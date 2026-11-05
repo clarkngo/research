@@ -39,6 +39,7 @@ abstract: >
 
 ## Notes
 
+- Project page: [clarkngo.github.io/beyond-blooms-pyramid](https://clarkngo.github.io/beyond-blooms-pyramid/)
 - Source repo (charter, outline, design case, milestones): [github.com/clarkngo/beyond-blooms-pyramid](https://github.com/clarkngo/beyond-blooms-pyramid)
 
 A collaboration with Jim O'Farrell that started at a kickoff meeting
